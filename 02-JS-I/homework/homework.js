@@ -95,40 +95,54 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-}
+  var resto = x % y; 
+  return resto;
+};
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-}
+  if (num % 2 == 0) {return true};
+  return false; 
+};
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-}
+  if (num % 2 != 0) {return true};
+  return false; 
+};
 
 function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-}
+  var alcuadrado = Math.pow(num,2);
+  return alcuadrado;
+};
 
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-}
+  var alcubo = Math.pow(num,3);
+  return alcubo;
+};
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-}
+  var devolverelevado = Math.pow(num, exponent);
+  return devolverelevado;
+};
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-}
+  var redondeado = Math.round(num);
+  return redondeado;
+};
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
