@@ -1,0 +1,26 @@
+// Conceptos aptos para menores de 12 años
+
+Variable:
+Una variable es un lugar donde podes almacenar informacion. Pueden ser lugares donde la informacion que se guarda puede cambiar por otra o un lugar donde una vez que ingresaste cierta informacion ya queda para siempre
+Una variable tiene un nombre, y cada vez que la llamas muestra la informacion que tiene guardada.
+
+Strings:
+Un strings es como un hilo de letras que se identifica porque van entre comillas. Son utiles para agregar comentarios.
+En resumen, abro comillas, escribo el texto, cierro comillas.
+*Puede ser comillas dobles o simples.
+
+Funciones:
+Una funcion es como una maquina. Le metes algo y sale otra cosa. Por ejemplo el motor de un auto. Ingresa nafta y produce la energia cinetica para moverlo.
+Este es el cuerpo de una funcion
+function NOMBREDELAFUNCION(){}
+*Los parentesis son parte del nombre.
+
+El argumento de la funcion es lo que va dentro de las llaves y es lo que nos permite que la fucnion haga algo.
+
+La funcion return esta ya determinada. Lo que hace es devolver clauquier cosa que se le pida. Lo interesante es que cuando se usa return dentro de una funcion se corta con el desarrollor del argument.
+
+Declaraciones IF:
+Una declaracion IF sirve para introducir una condicion en nuestra funcion por ejemplo. Si la condicion se cumple se hace una cosa, sino se hace otra.
+
+Valores booleanos:
+Son basicamente dos. True o False. verdadero o falso. Es la forma mas facil que tiene una pc para entenderte. 
